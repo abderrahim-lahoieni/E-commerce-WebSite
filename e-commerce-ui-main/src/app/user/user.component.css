@@ -1,0 +1,67 @@
+/* Overall container styling */  
+.container {  
+    max-width: 900px;  
+    margin: 0 auto;  
+    padding: 20px;  
+  }  
+  
+  /* Card styling */  
+  .user-status-card {  
+    background: #ffffff;  
+    border-radius: 12px;  
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);  
+    padding: 40px;  
+    text-align: center;  
+    max-width: 650px;  
+    margin: 0 auto;  
+    color: #2C3E50;  
+  }  
+  
+  .user-status-title {  
+    font-size: 2.5rem;  
+    font-weight: bold;  
+    color: #3498DB;  
+    margin-bottom: 20px;  
+  }  
+  
+  .user-status-message {  
+    font-size: 1.2rem;  
+    color: #7F8C8D;  
+    margin-bottom: 30px;  
+  }  
+  
+  .user-status-message strong {  
+    color: #E74C3C; /* Highlighting message in red if needed */  
+  }  
+  
+  /* Button styling */  
+  .go-home-button {  
+    font-size: 1.1rem;  
+    padding: 12px 30px;  
+    text-transform: uppercase;  
+    letter-spacing: 1px;  
+    border-radius: 30px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    transition: all 0.3s ease-in-out;  
+  }  
+  
+  .go-home-button:hover {  
+    background-color: #2980B9;  
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  
+    transform: scale(1.05);  
+  }  
+  
+  /* Responsive Design */  
+  @media (max-width: 600px) {  
+    .user-status-title {  
+      font-size: 2rem;  
+    }  
+  
+    .user-status-message {  
+      font-size: 1rem;  
+    }  
+  
+    .go-home-button {  
+      width: 100%;  
+    }  
+  }

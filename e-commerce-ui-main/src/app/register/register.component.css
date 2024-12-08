@@ -1,0 +1,35 @@
+.register-card {  
+    max-width: 500px;  
+    width: 100%;  
+    border-radius: 12px;  
+    background-color: #ffffff;  
+    border: 1px solid #ddd;  
+  }  
+  
+  h3.text-center {  
+    font-weight: bold;  
+  }  
+  
+  .mat-form-field {  
+    background: #f9f9f9;  
+    border-radius: 8px;  
+  }  
+  
+  button.mat-raised-button {  
+    font-weight: bold;  
+    height: 50px;  
+    font-size: 16px;  
+  }  
+  
+  .container {  
+    min-height: 100vh;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+  }  
+  
+  @media (max-width: 768px) {  
+    .register-card {  
+      padding: 20px;  
+    }  
+  }

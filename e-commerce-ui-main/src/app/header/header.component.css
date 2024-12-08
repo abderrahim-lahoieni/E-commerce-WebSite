@@ -1,0 +1,82 @@
+/* Sidenav styles */
+.sidenav-container {
+    height: 100vh;
+}
+
+.sidenav {
+    width: 250px;
+    background-color: #f8f9fa;
+}
+
+.sidenav-header {
+    padding: 16px;
+    text-align: center;
+}
+
+.sidenav-header .brand {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sidenav-header .brand-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0F3B48;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+}
+
+.mat-list-item {
+    margin: 8px 0;
+}
+
+.mat-list-item:hover {
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.mat-list-item mat-icon {
+    margin-right: 12px;
+    color: #6c757d;
+}
+
+/* Sidenav footer styles */
+.sidenav-footer {
+    position: absolute;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Content styles */
+.content {
+    padding: 16px;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 64px); /* Account for toolbar height */
+}
+
+.mat-toolbar {
+    background-color: #0F3B48;
+    color: #fff;
+}
+.navbar-title {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add subtle shadow for better contrast */
+    text-align: center;
+    flex-grow: 1; /* Ensures the title remains centered */
+}
+.logout-button {  
+    background-color:red !important; /* Custom red */  
+    color: white !important; /* Ensure the text is visible */  
+}  
+
+.logout-button:hover {  
+    background-color: red !important; /* Darker red for hover effect */  
+}
